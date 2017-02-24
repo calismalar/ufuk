@@ -1584,18 +1584,22 @@ pre code {
 .container {
   padding-right: 15px;
   padding-left: 15px;
+  margin-top:9em;
   margin-right: auto;
   margin-left: auto;
+  border:1px solid #777;
 }
 @media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
+
+    .container {
+        width: 750px;
+    }
 }
 @media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
+  
+    .container {
+        width: 970px;
+    }
 }
 @media (min-width: 1200px) {
   .container {
@@ -3455,6 +3459,7 @@ fieldset[disabled] .btn-link:focus {
 .btn-block {
   display: block;
   width: 100%;
+  background-color:#ec971f;
 }
 .btn-block + .btn-block {
   margin-top: 5px;
